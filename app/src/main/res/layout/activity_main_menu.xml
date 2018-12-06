@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.reza.aplikasiportalberita.MainMenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/banner"
+                android:textAlignment="center"
+                android:text="SPORT NEWS"
+                android:textSize="24sp"
+                android:gravity="bottom"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+            <!--Baris Pertama-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--Menu Archary-->
+                <LinearLayout
+                    android:id="@+id/archary"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrapeFruit">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_archary"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorGrapeFruitDark"
+                        android:text="Archary"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Basketball-->
+                <LinearLayout
+                    android:id="@+id/basket"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorBitterSweet">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_basketball"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorBitterSweetDark"
+                        android:text="BasketBall"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Bowling-->
+                <LinearLayout
+                    android:id="@+id/bowling"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorFlower">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_bowling"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorFlowerDark"
+                        android:text="Bowling"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Baris Kedua-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--Menu Boxing-->
+                <LinearLayout
+                    android:id="@+id/boxing"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrass">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_boxing"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorGrassDark"
+                        android:text="Boxing"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Football-->
+                <LinearLayout
+                    android:id="@+id/football"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorBlueJeans">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_football"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorBlueJeansDark"
+                        android:text="Football"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Lon Tennis-->
+                <LinearLayout
+                    android:id="@+id/tenis"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorLavender">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_lontenis"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorLavenderDark"
+                        android:text="Lon Tennis"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Baris Ketiga-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--Menu Table Tannis-->
+                <LinearLayout
+                    android:id="@+id/tenis_meja"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorMint">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_tenis"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorMintDark"
+                        android:text="Table Tennis"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Volleyball-->
+                <LinearLayout
+                    android:id="@+id/voli"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorAqua">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_volleyball"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorAquaDark"
+                        android:text="Volleyball"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+                <!--Menu Weight Lifting-->
+                <LinearLayout
+                    android:id="@+id/beban"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorPinkRose">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_weight_lefting"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="18sp"
+                        android:background="@color/colorPinkRoseDark"
+                        android:text="Weight Lifting"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--About Me-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <!--About Me-->
+                <LinearLayout
+                    android:onClick="ShowPopup"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorGrapeFruit">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_userlogo"
+                        android:tint="@color/colorWhite"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="18sp"
+                        android:text="About Me"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
