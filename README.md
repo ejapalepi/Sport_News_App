@@ -1,4 +1,5 @@
 # Sport_News_App
+Berikut adalah tampilan-tampilan activity yang ada pada aplikasi Sport News App :
 1. Tampilan Splashscreen <br/> <br/>
 ![splashscreen](https://user-images.githubusercontent.com/43104066/49583415-bc9cdd00-f98a-11e8-8fc5-770c358a2696.jpg) 
 <br/> <br/> <br/> <br/>
