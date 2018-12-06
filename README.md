@@ -14,3 +14,12 @@ Berikut adalah tampilan-tampilan activity yang ada pada aplikasi Sport News App 
 <br/> <br/> <br/> <br/>
 5. Tampilan Menu Utama <br/> <br/>
 ![mainmenu](https://user-images.githubusercontent.com/43104066/49583509-0be30d80-f98b-11e8-98c0-4f7da244a863.jpg)
+<br/> <br/> <br/> <br/>
+6. Tampilan About Me <br/> <br/>
+![detail_berita](https://user-images.githubusercontent.com/43104066/49585013-b78e5c80-f98f-11e8-83a6-1722b36eabce.jpg)
+<br/> <br/> <br/> <br/>
+7. Tampilan List Berita <br/> <br/>
+![list_berita](https://user-images.githubusercontent.com/43104066/49585014-b826f300-f98f-11e8-8440-b3b12625e5f6.jpg)
+<br/> <br/> <br/> <br/>
+5. Tampilan Detail Berita <br/> <br/>
+![about_me](https://user-images.githubusercontent.com/43104066/49585016-b826f300-f98f-11e8-8279-696383cca1fa.jpg)
